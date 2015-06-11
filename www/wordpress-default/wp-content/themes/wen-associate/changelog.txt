@@ -1,0 +1,29 @@
+= 1.0.6 =
+* Fix: Sanitization of excerpt length in customizer
+* Update: Update bootstrap library
+* Fix: Minor styling fixes
+
+= 1.0.5 =
+* Fix: Escape home URL in breadcrumb
+* Fix: Minor styling fixes
+* Update: Update TGM Class
+
+= 1.0.4 =
+* Fix: mmenu script file name
+
+= 1.0.3 =
+* Fix: Shortcode in excerpt issue fixed
+* Fix: Minor bug fixes
+* Fix: URL issue in Service widget
+
+= 1.0.2 =
+* Fix: Missing theme text domain
+* Fix: Minor styling issues
+* Update: Removing unnecessary files
+
+= 1.0.1 =
+* Bug fixes
+* Fixed minor styling issues
+
+= 1.0.0 =
+* Initial submission to WordPress repository

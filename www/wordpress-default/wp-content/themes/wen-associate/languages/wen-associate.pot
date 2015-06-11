@@ -1,0 +1,1442 @@
+# Copyright (C) 2014 Automattic
+# This file is distributed under the GNU General Public License v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: wen-associate\n"
+"POT-Creation-Date: 2015-05-22 17:34+0545\n"
+"PO-Revision-Date: 2015-05-22 17:34+0545\n"
+"Last-Translator: WEN Themes <info@wenthemes.com>\n"
+"Language-Team: \n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;_ex:1,2c;"
+"esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-SearchPath-0: ../../wen-associate\n"
+
+#: ../../wen-associate/searchform.php:2
+msgctxt "label"
+msgid "Search for:"
+msgstr ""
+
+#: ../../wen-associate/404.php:15
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: ../../wen-associate/404.php:18
+msgid "404"
+msgstr ""
+
+#: ../../wen-associate/404.php:32
+msgid "It looks like nothing was found at this location. Maybe try searching?"
+msgstr ""
+
+#: ../../wen-associate/comments.php:28
+#, php-format
+msgctxt "comments title"
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../../wen-associate/comments.php:35 ../../wen-associate/comments.php:52
+msgid "Comment navigation"
+msgstr ""
+
+#: ../../wen-associate/comments.php:36 ../../wen-associate/comments.php:53
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: ../../wen-associate/comments.php:37 ../../wen-associate/comments.php:54
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: ../../wen-associate/comments.php:64
+msgid "Comments are closed."
+msgstr ""
+
+#: ../../wen-associate/comments.php:75
+msgid "Name"
+msgstr ""
+
+#: ../../wen-associate/comments.php:80
+msgid "Email"
+msgstr ""
+
+#: ../../wen-associate/comments.php:85
+#: ../../wen-associate/template-parts/single-author-bio.php:12
+msgid "Website"
+msgstr ""
+
+#: ../../wen-associate/comments.php:92
+msgid "Comment"
+msgstr ""
+
+#: ../../wen-associate/search.php:16
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: ../../wen-associate/functions.php:68
+msgid "Primary Menu"
+msgstr ""
+
+#: ../../wen-associate/functions.php:69
+msgid "Footer Menu"
+msgstr ""
+
+#: ../../wen-associate/functions.php:70
+msgid "Social Menu"
+msgstr ""
+
+#: ../../wen-associate/functions.php:71
+msgid "404 Menu"
+msgstr ""
+
+#: ../../wen-associate/functions.php:119 ../../wen-associate/sidebar.php:25
+msgid "Primary Sidebar"
+msgstr ""
+
+#: ../../wen-associate/functions.php:128
+#: ../../wen-associate/sidebar-secondary.php:25
+msgid "Secondary Sidebar"
+msgstr ""
+
+#: ../../wen-associate/functions.php:137
+msgid "Front Page : Main"
+msgstr ""
+
+#: ../../wen-associate/functions.php:146
+msgid "Front Page : Lower Left"
+msgstr ""
+
+#: ../../wen-associate/functions.php:155
+msgid "Front Page : Lower Right"
+msgstr ""
+
+#: ../../wen-associate/functions.php:164
+msgid "Front Page : Bottom"
+msgstr ""
+
+#: ../../wen-associate/sidebar.php:26
+msgid ""
+"Widgets of Primary Sidebar will be displayed here. To add widgets go to "
+"'Appearance' -> 'Widgets'."
+msgstr ""
+
+#: ../../wen-associate/sidebar-secondary.php:26
+msgid ""
+"Widgets of Secondary Sidebar will be displayed here. To add widgets go to "
+"'Appearance' -> 'Widgets'."
+msgstr ""
+
+#: ../../wen-associate/wen-customizer/controls.php:116
+#: ../../wen-associate/inc/widgets.php:1359
+#: ../../wen-associate/inc/widgets.php:1377
+#: ../../wen-associate/inc/widgets.php:1396
+#: ../../wen-associate/inc/widgets.php:1415
+msgid "Select"
+msgstr ""
+
+#: ../../wen-associate/inc/template-tags.php:23
+msgid "Posts navigation"
+msgstr ""
+
+#: ../../wen-associate/inc/template-tags.php:27
+msgid "Older posts"
+msgstr ""
+
+#: ../../wen-associate/inc/template-tags.php:31
+msgid "Newer posts"
+msgstr ""
+
+#: ../../wen-associate/inc/template-tags.php:56
+msgid "Post navigation"
+msgstr ""
+
+#: ../../wen-associate/inc/template-tags.php:86
+#, php-format
+msgctxt "post date"
+msgid "%s"
+msgstr ""
+
+#: ../../wen-associate/inc/template-tags.php:91
+#, php-format
+msgctxt "post author"
+msgid "%s"
+msgstr ""
+
+#: ../../wen-associate/inc/template-tags.php:108
+#: ../../wen-associate/inc/template-tags.php:114
+msgid ", "
+msgstr ""
+
+#: ../../wen-associate/inc/template-tags.php:110
+#: ../../wen-associate/inc/template-tags.php:116
+#, php-format
+msgid "%1$s"
+msgstr ""
+
+#: ../../wen-associate/inc/template-tags.php:122
+msgid "Leave a comment"
+msgstr ""
+
+#: ../../wen-associate/inc/template-tags.php:122
+#: ../../wen-associate/inc/widgets.php:519
+msgid "1 Comment"
+msgstr ""
+
+#: ../../wen-associate/inc/template-tags.php:122
+#: ../../wen-associate/inc/widgets.php:519
+msgid "% Comments"
+msgstr ""
+
+#: ../../wen-associate/inc/template-tags.php:126
+#: ../../wen-associate/template-parts/content-page.php:34
+msgid "Edit"
+msgstr ""
+
+#: ../../wen-associate/inc/template-tags.php:143
+#, php-format
+msgid "Category: %s"
+msgstr ""
+
+#: ../../wen-associate/inc/template-tags.php:145
+#, php-format
+msgid "Tag: %s"
+msgstr ""
+
+#: ../../wen-associate/inc/template-tags.php:147
+#, php-format
+msgid "Author: %s"
+msgstr ""
+
+#: ../../wen-associate/inc/template-tags.php:149
+#, php-format
+msgid "Year: %s"
+msgstr ""
+
+#: ../../wen-associate/inc/template-tags.php:149
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr ""
+
+#: ../../wen-associate/inc/template-tags.php:151
+#, php-format
+msgid "Month: %s"
+msgstr ""
+
+#: ../../wen-associate/inc/template-tags.php:151
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr ""
+
+#: ../../wen-associate/inc/template-tags.php:153
+#, php-format
+msgid "Day: %s"
+msgstr ""
+
+#: ../../wen-associate/inc/template-tags.php:153
+msgctxt "daily archives date format"
+msgid "F j, Y"
+msgstr ""
+
+#: ../../wen-associate/inc/template-tags.php:156
+msgctxt "post format archive title"
+msgid "Asides"
+msgstr ""
+
+#: ../../wen-associate/inc/template-tags.php:158
+msgctxt "post format archive title"
+msgid "Galleries"
+msgstr ""
+
+#: ../../wen-associate/inc/template-tags.php:160
+msgctxt "post format archive title"
+msgid "Images"
+msgstr ""
+
+#: ../../wen-associate/inc/template-tags.php:162
+msgctxt "post format archive title"
+msgid "Videos"
+msgstr ""
+
+#: ../../wen-associate/inc/template-tags.php:164
+msgctxt "post format archive title"
+msgid "Quotes"
+msgstr ""
+
+#: ../../wen-associate/inc/template-tags.php:166
+msgctxt "post format archive title"
+msgid "Links"
+msgstr ""
+
+#: ../../wen-associate/inc/template-tags.php:168
+msgctxt "post format archive title"
+msgid "Statuses"
+msgstr ""
+
+#: ../../wen-associate/inc/template-tags.php:170
+msgctxt "post format archive title"
+msgid "Audio"
+msgstr ""
+
+#: ../../wen-associate/inc/template-tags.php:172
+msgctxt "post format archive title"
+msgid "Chats"
+msgstr ""
+
+#: ../../wen-associate/inc/template-tags.php:175
+#, php-format
+msgid "Archives: %s"
+msgstr ""
+
+#: ../../wen-associate/inc/template-tags.php:179
+#, php-format
+msgid "%1$s: %2$s"
+msgstr ""
+
+#: ../../wen-associate/inc/template-tags.php:181
+msgid "Archives"
+msgstr ""
+
+#: ../../wen-associate/inc/metabox.php:16
+msgid "Theme Settings"
+msgstr ""
+
+#: ../../wen-associate/inc/metabox.php:55
+msgid "Choose Layout"
+msgstr ""
+
+#: ../../wen-associate/inc/metabox.php:57
+#: ../../wen-associate/inc/metabox.php:69
+#: ../../wen-associate/inc/metabox.php:81
+msgid "Default"
+msgstr ""
+
+#: ../../wen-associate/inc/metabox.php:67
+msgid "Choose Image Size in Single Post/Page"
+msgstr ""
+
+#: ../../wen-associate/inc/metabox.php:79
+#: ../../wen-associate/inc/customizer/setting.php:146
+msgid "Alignment of Image in Single Post/Page"
+msgstr ""
+
+#: ../../wen-associate/inc/widgets.php:69
+msgid "Social Icons Widget. Displays social icons."
+msgstr ""
+
+#: ../../wen-associate/inc/widgets.php:72
+msgid "Associate Social Widget"
+msgstr ""
+
+#: ../../wen-associate/inc/widgets.php:151
+#: ../../wen-associate/inc/widgets.php:316
+#: ../../wen-associate/inc/widgets.php:604
+#: ../../wen-associate/inc/widgets.php:957
+#: ../../wen-associate/inc/widgets.php:1326
+#: ../../wen-associate/inc/widgets.php:1649
+#: ../../wen-associate/inc/widgets.php:2016
+msgid "Title:"
+msgstr ""
+
+#: ../../wen-associate/inc/widgets.php:155
+msgid "Social Icon Size:"
+msgstr ""
+
+#: ../../wen-associate/inc/widgets.php:157
+msgid "Small"
+msgstr ""
+
+#: ../../wen-associate/inc/widgets.php:158
+msgid "Medium"
+msgstr ""
+
+#: ../../wen-associate/inc/widgets.php:159
+msgid "Large"
+msgstr ""
+
+#: ../../wen-associate/inc/widgets.php:163
+#: ../../wen-associate/inc/widgets.php:352
+#: ../../wen-associate/inc/widgets.php:671
+#: ../../wen-associate/inc/widgets.php:1024
+#: ../../wen-associate/inc/widgets.php:1347
+#: ../../wen-associate/inc/widgets.php:1728
+#: ../../wen-associate/inc/widgets.php:2073
+msgid "Custom Class:"
+msgstr ""
+
+#: ../../wen-associate/inc/widgets.php:178
+msgid "Social Menu is currently set to"
+msgstr ""
+
+#: ../../wen-associate/inc/widgets.php:195
+msgid "Social menu is not set."
+msgstr ""
+
+#: ../../wen-associate/inc/widgets.php:196
+msgid "Click here to set menu"
+msgstr ""
+
+#: ../../wen-associate/inc/widgets.php:197
+msgctxt "Social Widget"
+msgid "or"
+msgstr ""
+
+#: ../../wen-associate/inc/widgets.php:198
+msgid "Create menu now"
+msgstr ""
+
+#: ../../wen-associate/inc/widgets.php:223
+msgid "Featured Page Widget. Displays content of selected page."
+msgstr ""
+
+#: ../../wen-associate/inc/widgets.php:226
+msgid "Associate Featured Page Widget"
+msgstr ""
+
+#: ../../wen-associate/inc/widgets.php:319
+msgid "Use Page Name as Widget Title"
+msgstr ""
+
+#: ../../wen-associate/inc/widgets.php:323
+msgid "Select Page:"
+msgstr ""
+
+#: ../../wen-associate/inc/widgets.php:334
+msgid "Show Page Content:"
+msgstr ""
+
+#: ../../wen-associate/inc/widgets.php:336
+msgid "Short"
+msgstr ""
+
+#: ../../wen-associate/inc/widgets.php:337
+msgid "Full"
+msgstr ""
+
+#: ../../wen-associate/inc/widgets.php:341
+#: ../../wen-associate/inc/widgets.php:638
+#: ../../wen-associate/inc/widgets.php:980
+#: ../../wen-associate/inc/widgets.php:1683
+#: ../../wen-associate/inc/widgets.php:2035
+msgid "Select Image Size:"
+msgstr ""
+
+#: ../../wen-associate/inc/widgets.php:407
+msgid ""
+"Latest News Widget. Displays latest posts in grid. Most suitable for home "
+"page."
+msgstr ""
+
+#: ../../wen-associate/inc/widgets.php:410
+msgid "Associate Latest News Widget"
+msgstr ""
+
+#: ../../wen-associate/inc/widgets.php:423
+#: ../../wen-associate/inc/widgets.php:582
+#: ../../wen-associate/inc/widgets.php:1125
+#: ../../wen-associate/inc/widgets.php:1297
+#: ../../wen-associate/inc/widgets.php:1463
+#: ../../wen-associate/inc/widgets.php:1629
+#: ../../wen-associate/inc/widgets.php:1873
+#: ../../wen-associate/inc/widgets.php:1996
+msgid "Read more"
+msgstr ""
+
+#: ../../wen-associate/inc/widgets.php:519
+msgid "No Comment"
+msgstr ""
+
+#: ../../wen-associate/inc/widgets.php:608
+#: ../../wen-associate/inc/widgets.php:961
+#: ../../wen-associate/inc/widgets.php:1653
+#: ../../wen-associate/inc/widgets.php:2020
+msgid "Select Category:"
+msgstr ""
+
+#: ../../wen-associate/inc/widgets.php:617
+#: ../../wen-associate/inc/widgets.php:970
+#: ../../wen-associate/inc/widgets.php:1662
+#: ../../wen-associate/inc/widgets.php:2029
+msgid "All Categories"
+msgstr ""
+
+#: ../../wen-associate/inc/widgets.php:623
+#: ../../wen-associate/inc/widgets.php:976
+#: ../../wen-associate/inc/widgets.php:1668
+#: ../../wen-associate/inc/widgets.php:2050
+msgid "Number of Posts:"
+msgstr ""
+
+#: ../../wen-associate/inc/widgets.php:627
+#: ../../wen-associate/inc/widgets.php:1672
+msgid "Number of Columns:"
+msgstr ""
+
+#: ../../wen-associate/inc/widgets.php:649
+msgid "Post Excerpt Length:"
+msgstr ""
+
+#: ../../wen-associate/inc/widgets.php:650
+#: ../../wen-associate/inc/widgets.php:992
+#: ../../wen-associate/inc/widgets.php:1331
+#: ../../wen-associate/inc/widgets.php:1695
+#: ../../wen-associate/inc/widgets.php:2055
+msgid "in words"
+msgstr ""
+
+#: ../../wen-associate/inc/widgets.php:653
+#: ../../wen-associate/inc/widgets.php:1338
+#: ../../wen-associate/inc/widgets.php:1716
+#: ../../wen-associate/inc/widgets.php:2058
+msgid "Read More Text:"
+msgstr ""
+
+#: ../../wen-associate/inc/widgets.php:656
+#: ../../wen-associate/inc/widgets.php:2061
+msgid "Disable Date in Post"
+msgstr ""
+
+#: ../../wen-associate/inc/widgets.php:659
+msgid "Disable Comment in Post"
+msgstr ""
+
+#: ../../wen-associate/inc/widgets.php:663
+#: ../../wen-associate/inc/widgets.php:2065
+msgid "Disable Excerpt in Post"
+msgstr ""
+
+#: ../../wen-associate/inc/widgets.php:667
+#: ../../wen-associate/inc/widgets.php:1343
+#: ../../wen-associate/inc/widgets.php:1724
+#: ../../wen-associate/inc/widgets.php:2069
+msgid "Disable Read More Text"
+msgstr ""
+
+#: ../../wen-associate/inc/widgets.php:690
+#: ../../wen-associate/inc/widgets.php:1747
+#, php-format
+msgid "%d Column"
+msgstr ""
+
+#: ../../wen-associate/inc/widgets.php:691
+#: ../../wen-associate/inc/widgets.php:692
+#: ../../wen-associate/inc/widgets.php:693
+#: ../../wen-associate/inc/widgets.php:1748
+#: ../../wen-associate/inc/widgets.php:1749
+#: ../../wen-associate/inc/widgets.php:1750
+#, php-format
+msgid "%d Columns"
+msgstr ""
+
+#: ../../wen-associate/inc/widgets.php:762
+msgid "Testimonial Slider Widget. Displays posts from a category as a slider."
+msgstr ""
+
+#: ../../wen-associate/inc/widgets.php:765
+msgid "Associate Testimonial Widget"
+msgstr ""
+
+#: ../../wen-associate/inc/widgets.php:991
+#: ../../wen-associate/inc/widgets.php:1330
+#: ../../wen-associate/inc/widgets.php:1694
+#: ../../wen-associate/inc/widgets.php:2054
+msgid "Excerpt Length:"
+msgstr ""
+
+#: ../../wen-associate/inc/widgets.php:995
+#: ../../wen-associate/inc/widgets.php:1698
+msgid "Post Order By:"
+msgstr ""
+
+#: ../../wen-associate/inc/widgets.php:1006
+#: ../../wen-associate/inc/widgets.php:1709
+msgid "Post Order:"
+msgstr ""
+
+#: ../../wen-associate/inc/widgets.php:1008
+#: ../../wen-associate/inc/widgets.php:1711
+msgid "Ascending"
+msgstr ""
+
+#: ../../wen-associate/inc/widgets.php:1009
+#: ../../wen-associate/inc/widgets.php:1712
+msgid "Descending"
+msgstr ""
+
+#: ../../wen-associate/inc/widgets.php:1013
+msgid "Transition Delay:"
+msgstr ""
+
+#: ../../wen-associate/inc/widgets.php:1014
+#: ../../wen-associate/inc/widgets.php:1018
+msgid "in seconds"
+msgstr ""
+
+#: ../../wen-associate/inc/widgets.php:1017
+msgid "Transition Duration:"
+msgstr ""
+
+#: ../../wen-associate/inc/widgets.php:1020
+msgid "Disable Pager"
+msgstr ""
+
+#: ../../wen-associate/inc/widgets.php:1021
+msgid "Check this to hide pager icons"
+msgstr ""
+
+#: ../../wen-associate/inc/widgets.php:1042
+#: ../../wen-associate/inc/widgets.php:1783
+msgid "Date"
+msgstr ""
+
+#: ../../wen-associate/inc/widgets.php:1043
+#: ../../wen-associate/inc/widgets.php:1784
+msgid "Title"
+msgstr ""
+
+#: ../../wen-associate/inc/widgets.php:1044
+#: ../../wen-associate/inc/widgets.php:1785
+msgid "Menu Order"
+msgstr ""
+
+#: ../../wen-associate/inc/widgets.php:1045
+#: ../../wen-associate/inc/widgets.php:1786
+msgid "Random"
+msgstr ""
+
+#: ../../wen-associate/inc/widgets.php:1114
+msgid "Service Widget. Show your services with icon and read more link."
+msgstr ""
+
+#: ../../wen-associate/inc/widgets.php:1116
+msgid "Associate Service Widget"
+msgstr ""
+
+#: ../../wen-associate/inc/widgets.php:1334
+msgid "Disable Excerpt"
+msgstr ""
+
+#: ../../wen-associate/inc/widgets.php:1351
+#: ../../wen-associate/inc/widgets.php:1369
+#: ../../wen-associate/inc/widgets.php:1388
+#: ../../wen-associate/inc/widgets.php:1407
+#, php-format
+msgid "Block %d"
+msgstr ""
+
+#: ../../wen-associate/inc/widgets.php:1353
+#: ../../wen-associate/inc/widgets.php:1371
+#: ../../wen-associate/inc/widgets.php:1390
+#: ../../wen-associate/inc/widgets.php:1409
+msgid "Page:"
+msgstr ""
+
+#: ../../wen-associate/inc/widgets.php:1365
+#: ../../wen-associate/inc/widgets.php:1384
+#: ../../wen-associate/inc/widgets.php:1403
+#: ../../wen-associate/inc/widgets.php:1422
+msgid "Icon:"
+msgstr ""
+
+#: ../../wen-associate/inc/widgets.php:1366
+#: ../../wen-associate/inc/widgets.php:1385
+#: ../../wen-associate/inc/widgets.php:1404
+#: ../../wen-associate/inc/widgets.php:1423
+msgid "eg: fa-cogs"
+msgstr ""
+
+#: ../../wen-associate/inc/widgets.php:1366
+#: ../../wen-associate/inc/widgets.php:1385
+#: ../../wen-associate/inc/widgets.php:1404
+#: ../../wen-associate/inc/widgets.php:1423
+msgid "View Reference"
+msgstr ""
+
+#: ../../wen-associate/inc/widgets.php:1366
+#: ../../wen-associate/inc/widgets.php:1385
+#: ../../wen-associate/inc/widgets.php:1404
+#: ../../wen-associate/inc/widgets.php:1423
+msgid "Reference"
+msgstr ""
+
+#: ../../wen-associate/inc/widgets.php:1445
+msgid ""
+"Partners Grid Widget. Displays posts with thumbnail in grid. Most suitable "
+"for Front Page : Bottom widget area."
+msgstr ""
+
+#: ../../wen-associate/inc/widgets.php:1448
+msgid "Associate Partners Widget"
+msgstr ""
+
+#: ../../wen-associate/inc/widgets.php:1720
+msgid "Disable Post Excerpt"
+msgstr ""
+
+#: ../../wen-associate/inc/widgets.php:1856
+msgid "Advanced Recent Posts Widget. Displays recent posts with thumbnail."
+msgstr ""
+
+#: ../../wen-associate/inc/widgets.php:1859
+msgid "Associate Recent Posts Widget"
+msgstr ""
+
+#: ../../wen-associate/inc/widgets.php:2046
+msgid "Image Width:"
+msgstr ""
+
+#: ../../wen-associate/inc/widgets.php:2047
+msgid "px"
+msgstr ""
+
+#: ../../wen-associate/inc/widgets.php:2113
+#: ../../wen-associate/inc/helper/customize.php:165
+#: ../../wen-associate/inc/helper/common.php:38
+msgid "No Image"
+msgstr ""
+
+#: ../../wen-associate/inc/widgets.php:2114
+msgid "Thumbnail"
+msgstr ""
+
+#: ../../wen-associate/inc/extras.php:52
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#: ../../wen-associate/inc/hook/tgm.php:16
+msgid "WP-PageNavi"
+msgstr ""
+
+#: ../../wen-associate/inc/hook/tgm.php:21
+msgid "Breadcrumb NavXT"
+msgstr ""
+
+#: ../../wen-associate/inc/hook/custom.php:371
+msgid "Recommended Image Sizes"
+msgstr ""
+
+#: ../../wen-associate/inc/hook/custom.php:372
+#: ../../wen-associate/inc/customizer/slider.php:47
+msgid "Featured Slider"
+msgstr ""
+
+#: ../../wen-associate/inc/hook/structure.php:65
+msgid "Skip to content"
+msgstr ""
+
+#: ../../wen-associate/inc/hook/core.php:404
+msgid "http://wordpress.org/"
+msgstr ""
+
+#: ../../wen-associate/inc/hook/core.php:404
+#, php-format
+msgid "Proudly powered by %s"
+msgstr ""
+
+#: ../../wen-associate/inc/hook/core.php:406
+#, php-format
+msgid "Theme: %1$s by %2$s."
+msgstr ""
+
+#: ../../wen-associate/inc/lib/class-tgm-plugin-activation.php:161
+msgid "Install Required Plugins"
+msgstr ""
+
+#: ../../wen-associate/inc/lib/class-tgm-plugin-activation.php:162
+msgid "Install Plugins"
+msgstr ""
+
+#: ../../wen-associate/inc/lib/class-tgm-plugin-activation.php:163
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: ../../wen-associate/inc/lib/class-tgm-plugin-activation.php:164
+msgid "Something went wrong."
+msgstr ""
+
+#: ../../wen-associate/inc/lib/class-tgm-plugin-activation.php:165
+#, php-format
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../../wen-associate/inc/lib/class-tgm-plugin-activation.php:166
+#, php-format
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../../wen-associate/inc/lib/class-tgm-plugin-activation.php:167
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to install the %s plugin. "
+"Contact the administrator of this site for help on getting the plugin "
+"installed."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to install the %s "
+"plugins. Contact the administrator of this site for help on getting the "
+"plugins installed."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../../wen-associate/inc/lib/class-tgm-plugin-activation.php:168
+#, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../../wen-associate/inc/lib/class-tgm-plugin-activation.php:169
+#, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../../wen-associate/inc/lib/class-tgm-plugin-activation.php:170
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to activate the %s "
+"plugin. Contact the administrator of this site for help on getting the "
+"plugin activated."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to activate the %s "
+"plugins. Contact the administrator of this site for help on getting the "
+"plugins activated."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../../wen-associate/inc/lib/class-tgm-plugin-activation.php:171
+#, php-format
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../../wen-associate/inc/lib/class-tgm-plugin-activation.php:172
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to update the %s plugin. "
+"Contact the administrator of this site for help on getting the plugin "
+"updated."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to update the %s plugins. "
+"Contact the administrator of this site for help on getting the plugins "
+"updated."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../../wen-associate/inc/lib/class-tgm-plugin-activation.php:173
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../../wen-associate/inc/lib/class-tgm-plugin-activation.php:174
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../../wen-associate/inc/lib/class-tgm-plugin-activation.php:175
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: ../../wen-associate/inc/lib/class-tgm-plugin-activation.php:176
+msgid "Return to the dashboard"
+msgstr ""
+
+#: ../../wen-associate/inc/lib/class-tgm-plugin-activation.php:177
+#: ../../wen-associate/inc/lib/class-tgm-plugin-activation.php:1956
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: ../../wen-associate/inc/lib/class-tgm-plugin-activation.php:178
+#: ../../wen-associate/inc/lib/class-tgm-plugin-activation.php:1644
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../../wen-associate/inc/lib/class-tgm-plugin-activation.php:179
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: ../../wen-associate/inc/lib/class-tgm-plugin-activation.php:180
+msgid "Dismiss this notice"
+msgstr ""
+
+#: ../../wen-associate/inc/lib/class-tgm-plugin-activation.php:532
+#: ../../wen-associate/inc/lib/class-tgm-plugin-activation.php:2173
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: ../../wen-associate/inc/lib/class-tgm-plugin-activation.php:1167
+#: ../../wen-associate/inc/lib/class-tgm-plugin-activation.php:1348
+msgid "Private Repository"
+msgstr ""
+
+#: ../../wen-associate/inc/lib/class-tgm-plugin-activation.php:1170
+#: ../../wen-associate/inc/lib/class-tgm-plugin-activation.php:1351
+msgid "Pre-Packaged"
+msgstr ""
+
+#: ../../wen-associate/inc/lib/class-tgm-plugin-activation.php:1175
+msgid "WordPress Repository"
+msgstr ""
+
+#: ../../wen-associate/inc/lib/class-tgm-plugin-activation.php:1178
+msgid "Required"
+msgstr ""
+
+#: ../../wen-associate/inc/lib/class-tgm-plugin-activation.php:1178
+msgid "Recommended"
+msgstr ""
+
+#: ../../wen-associate/inc/lib/class-tgm-plugin-activation.php:1181
+msgid "Not Installed"
+msgstr ""
+
+#: ../../wen-associate/inc/lib/class-tgm-plugin-activation.php:1183
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: ../../wen-associate/inc/lib/class-tgm-plugin-activation.php:1288
+#: ../../wen-associate/inc/lib/class-tgm-plugin-activation.php:1409
+msgid "Install"
+msgstr ""
+
+#: ../../wen-associate/inc/lib/class-tgm-plugin-activation.php:1312
+#: ../../wen-associate/inc/lib/class-tgm-plugin-activation.php:1410
+msgid "Activate"
+msgstr ""
+
+#: ../../wen-associate/inc/lib/class-tgm-plugin-activation.php:1372
+#, php-format
+msgid ""
+"No plugins to install or activate. <a href=\"%1$s\" title=\"Return to the "
+"Dashboard\">Return to the Dashboard</a>"
+msgstr ""
+
+#: ../../wen-associate/inc/lib/class-tgm-plugin-activation.php:1388
+msgid "Plugin"
+msgstr ""
+
+#: ../../wen-associate/inc/lib/class-tgm-plugin-activation.php:1389
+msgid "Source"
+msgstr ""
+
+#: ../../wen-associate/inc/lib/class-tgm-plugin-activation.php:1390
+msgid "Type"
+msgstr ""
+
+#: ../../wen-associate/inc/lib/class-tgm-plugin-activation.php:1391
+msgid "Status"
+msgstr ""
+
+#: ../../wen-associate/inc/lib/class-tgm-plugin-activation.php:1939
+msgid "Install package not available."
+msgstr ""
+
+#: ../../wen-associate/inc/lib/class-tgm-plugin-activation.php:1940
+#, php-format
+msgid "Downloading install package from <span class=\"code\">%s</span>&#8230;"
+msgstr ""
+
+#: ../../wen-associate/inc/lib/class-tgm-plugin-activation.php:1941
+msgid "Unpacking the package&#8230;"
+msgstr ""
+
+#: ../../wen-associate/inc/lib/class-tgm-plugin-activation.php:1942
+msgid "Installing the plugin&#8230;"
+msgstr ""
+
+#: ../../wen-associate/inc/lib/class-tgm-plugin-activation.php:1943
+msgid "Plugin install failed."
+msgstr ""
+
+#: ../../wen-associate/inc/lib/class-tgm-plugin-activation.php:1944
+msgid "Plugin installed successfully."
+msgstr ""
+
+#: ../../wen-associate/inc/lib/class-tgm-plugin-activation.php:1955
+msgid "Plugin activation failed."
+msgstr ""
+
+#: ../../wen-associate/inc/lib/class-tgm-plugin-activation.php:2069
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#: ../../wen-associate/inc/lib/class-tgm-plugin-activation.php:2070
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: ../../wen-associate/inc/lib/class-tgm-plugin-activation.php:2070
+#: ../../wen-associate/inc/lib/class-tgm-plugin-activation.php:2079
+msgid "Show Details"
+msgstr ""
+
+#: ../../wen-associate/inc/lib/class-tgm-plugin-activation.php:2070
+#: ../../wen-associate/inc/lib/class-tgm-plugin-activation.php:2079
+msgid "Hide Details"
+msgstr ""
+
+#: ../../wen-associate/inc/lib/class-tgm-plugin-activation.php:2071
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: ../../wen-associate/inc/lib/class-tgm-plugin-activation.php:2072
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: ../../wen-associate/inc/lib/class-tgm-plugin-activation.php:2076
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: ../../wen-associate/inc/lib/class-tgm-plugin-activation.php:2077
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: ../../wen-associate/inc/lib/class-tgm-plugin-activation.php:2078
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: ../../wen-associate/inc/lib/class-tgm-plugin-activation.php:2079
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: ../../wen-associate/inc/lib/class-tgm-plugin-activation.php:2080
+msgid "All installations have been completed."
+msgstr ""
+
+#: ../../wen-associate/inc/lib/class-tgm-plugin-activation.php:2081
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: ../../wen-associate/inc/customizer/slider.php:51
+msgid "Slider Settings"
+msgstr ""
+
+#: ../../wen-associate/inc/customizer/slider.php:55
+msgid "Transition Effect"
+msgstr ""
+
+#: ../../wen-associate/inc/customizer/slider.php:61
+msgid "Transition Delay"
+msgstr ""
+
+#: ../../wen-associate/inc/customizer/slider.php:62
+#: ../../wen-associate/inc/customizer/slider.php:75
+msgid "In second(s)"
+msgstr ""
+
+#: ../../wen-associate/inc/customizer/slider.php:74
+msgid "Transition Duration"
+msgstr ""
+
+#: ../../wen-associate/inc/customizer/slider.php:86
+msgid "Enable Caption"
+msgstr ""
+
+#: ../../wen-associate/inc/customizer/slider.php:90
+msgid "Enable Arrow"
+msgstr ""
+
+#: ../../wen-associate/inc/customizer/slider.php:94
+msgid "Enable Pager"
+msgstr ""
+
+#: ../../wen-associate/inc/customizer/slider.php:98
+msgid "Enable Autoplay"
+msgstr ""
+
+#: ../../wen-associate/inc/customizer/slider.php:107
+msgid "Slider Type"
+msgstr ""
+
+#: ../../wen-associate/inc/customizer/slider.php:111
+msgid "Enable Slider on"
+msgstr ""
+
+#: ../../wen-associate/inc/customizer/slider.php:116
+msgid "Select Slider Type"
+msgstr ""
+
+#: ../../wen-associate/inc/customizer/slider.php:122
+msgid "No of Slides"
+msgstr ""
+
+#: ../../wen-associate/inc/customizer/slider.php:134
+msgid "Select Category"
+msgstr ""
+
+#: ../../wen-associate/inc/customizer/setting.php:36
+msgid "Copyright. All rights reserved."
+msgstr ""
+
+#: ../../wen-associate/inc/customizer/setting.php:41
+msgid "Read More ..."
+msgstr ""
+
+#: ../../wen-associate/inc/customizer/setting.php:69
+msgid "Header"
+msgstr ""
+
+#: ../../wen-associate/inc/customizer/setting.php:73
+#: ../../wen-associate/inc/customizer/setting.php:118
+msgid "Layout"
+msgstr ""
+
+#: ../../wen-associate/inc/customizer/setting.php:79
+msgid "Logo"
+msgstr ""
+
+#: ../../wen-associate/inc/customizer/setting.php:84
+msgid "Show Tagline"
+msgstr ""
+
+#: ../../wen-associate/inc/customizer/setting.php:88
+msgid "Show Social Icons"
+msgstr ""
+
+#: ../../wen-associate/inc/customizer/setting.php:92
+msgid "Show Search Icons"
+msgstr ""
+
+#: ../../wen-associate/inc/customizer/setting.php:100
+msgid "Icons"
+msgstr ""
+
+#: ../../wen-associate/inc/customizer/setting.php:104
+msgid "Favicon"
+msgstr ""
+
+#: ../../wen-associate/inc/customizer/setting.php:109
+msgid "Web Clip Icon"
+msgstr ""
+
+#: ../../wen-associate/inc/customizer/setting.php:122
+msgid "Site Layout"
+msgstr ""
+
+#: ../../wen-associate/inc/customizer/setting.php:128
+msgid "Global Layout"
+msgstr ""
+
+#: ../../wen-associate/inc/customizer/setting.php:134
+msgid "Archive Layout"
+msgstr ""
+
+#: ../../wen-associate/inc/customizer/setting.php:140
+msgid "Image in Single Post/Page"
+msgstr ""
+
+#: ../../wen-associate/inc/customizer/setting.php:156
+msgid "Pagination"
+msgstr ""
+
+#: ../../wen-associate/inc/customizer/setting.php:160
+msgid "Pagination Type"
+msgstr ""
+
+#: ../../wen-associate/inc/customizer/setting.php:161
+#, php-format
+msgid "Numeric: Requires %sWP-PageNavi%s plugin"
+msgstr ""
+
+#: ../../wen-associate/inc/customizer/setting.php:171
+msgid "Footer"
+msgstr ""
+
+#: ../../wen-associate/inc/customizer/setting.php:175
+msgid "Copyright Text"
+msgstr ""
+
+#: ../../wen-associate/inc/customizer/setting.php:179
+msgid "Show Go To Top"
+msgstr ""
+
+#: ../../wen-associate/inc/customizer/setting.php:187
+msgid "Blog"
+msgstr ""
+
+#: ../../wen-associate/inc/customizer/setting.php:191
+msgid "Excerpt Length (words)"
+msgstr ""
+
+#: ../../wen-associate/inc/customizer/setting.php:192
+msgid "Default is 40 words"
+msgstr ""
+
+#: ../../wen-associate/inc/customizer/setting.php:202
+msgid "Read More Text"
+msgstr ""
+
+#: ../../wen-associate/inc/customizer/setting.php:207
+msgid "Exclude Categories in Blog"
+msgstr ""
+
+#: ../../wen-associate/inc/customizer/setting.php:208
+msgid ""
+"Enter category ID to exclude in Blog Page. Separate with comma if more than "
+"one"
+msgstr ""
+
+#: ../../wen-associate/inc/customizer/setting.php:213
+msgid "Show Author Bio"
+msgstr ""
+
+#: ../../wen-associate/inc/customizer/setting.php:221
+msgid "Breadcrumb"
+msgstr ""
+
+#: ../../wen-associate/inc/customizer/setting.php:225
+msgid "Breadcrumb Type"
+msgstr ""
+
+#: ../../wen-associate/inc/customizer/setting.php:226
+#, php-format
+msgid "Advanced: Requires %sBreadcrumb NavXT%s plugin"
+msgstr ""
+
+#: ../../wen-associate/inc/customizer/setting.php:232
+msgid "Separator"
+msgstr ""
+
+#: ../../wen-associate/inc/customizer/core.php:36
+msgid "Themes Options"
+msgstr ""
+
+#: ../../wen-associate/inc/customizer/core.php:40
+#: ../../wen-associate/inc/helper/customize.php:239
+msgid "Advanced"
+msgstr ""
+
+#: ../../wen-associate/inc/customizer/core.php:44
+msgid "Custom CSS"
+msgstr ""
+
+#: ../../wen-associate/inc/customizer/core.php:54
+msgid "Search"
+msgstr ""
+
+#: ../../wen-associate/inc/customizer/core.php:58
+msgid "Search Placeholder"
+msgstr ""
+
+#: ../../wen-associate/inc/customizer/core.php:66
+#: ../../wen-associate/inc/customizer/core.php:70
+msgid "Social Icons"
+msgstr ""
+
+#: ../../wen-associate/inc/customizer/core.php:72
+msgid "Please assign social menu."
+msgstr ""
+
+#: ../../wen-associate/inc/customizer/core.php:72
+msgid "Assign now"
+msgstr ""
+
+#: ../../wen-associate/inc/supports/footer-widgets.php:47
+#, php-format
+msgid "Footer Widget %d"
+msgstr ""
+
+#: ../../wen-associate/inc/helper/customize.php:13
+msgid "fade"
+msgstr ""
+
+#: ../../wen-associate/inc/helper/customize.php:14
+msgid "fadeout"
+msgstr ""
+
+#: ../../wen-associate/inc/helper/customize.php:15
+msgid "none"
+msgstr ""
+
+#: ../../wen-associate/inc/helper/customize.php:16
+msgid "scrollHorz"
+msgstr ""
+
+#: ../../wen-associate/inc/helper/customize.php:39
+msgid "Home Page Only"
+msgstr ""
+
+#: ../../wen-associate/inc/helper/customize.php:40
+msgid "Home Page + Blog Page"
+msgstr ""
+
+#: ../../wen-associate/inc/helper/customize.php:41
+msgid "Entire Site"
+msgstr ""
+
+#: ../../wen-associate/inc/helper/customize.php:42
+#: ../../wen-associate/inc/helper/customize.php:237
+msgid "Disabled"
+msgstr ""
+
+#: ../../wen-associate/inc/helper/customize.php:66
+msgid "Featured Category"
+msgstr ""
+
+#: ../../wen-associate/inc/helper/customize.php:90
+msgid "Primary Sidebar - Content"
+msgstr ""
+
+#: ../../wen-associate/inc/helper/customize.php:91
+msgid "Content - Primary Sidebar"
+msgstr ""
+
+#: ../../wen-associate/inc/helper/customize.php:92
+msgid "Three Columns"
+msgstr ""
+
+#: ../../wen-associate/inc/helper/customize.php:93
+msgid "No Sidebar"
+msgstr ""
+
+#: ../../wen-associate/inc/helper/customize.php:113
+msgid "Fluid"
+msgstr ""
+
+#: ../../wen-associate/inc/helper/customize.php:114
+msgid "Boxed"
+msgstr ""
+
+#: ../../wen-associate/inc/helper/customize.php:137
+msgid "Full Post"
+msgstr ""
+
+#: ../../wen-associate/inc/helper/customize.php:138
+msgid "Excerpt Only"
+msgstr ""
+
+#: ../../wen-associate/inc/helper/customize.php:139
+msgid "Excerpt and Thumbnail"
+msgstr ""
+
+#: ../../wen-associate/inc/helper/customize.php:169
+#: ../../wen-associate/inc/helper/common.php:43
+msgid "full (original)"
+msgstr ""
+
+#: ../../wen-associate/inc/helper/customize.php:195
+msgid "None"
+msgstr ""
+
+#: ../../wen-associate/inc/helper/customize.php:196
+msgid "Left"
+msgstr ""
+
+#: ../../wen-associate/inc/helper/customize.php:197
+msgid "Center"
+msgstr ""
+
+#: ../../wen-associate/inc/helper/customize.php:198
+msgid "Right"
+msgstr ""
+
+#: ../../wen-associate/inc/helper/customize.php:217
+msgid "Default (Older Post / Newer Post)"
+msgstr ""
+
+#: ../../wen-associate/inc/helper/customize.php:218
+msgid "Numeric"
+msgstr ""
+
+#: ../../wen-associate/inc/helper/customize.php:238
+msgid "Simple"
+msgstr ""
+
+#: ../../wen-associate/inc/helper/common.php:76
+#: ../../wen-associate/inc/helper/common.php:77
+#, php-format
+msgid "Archive for <em>%s</em>"
+msgstr ""
+
+#: ../../wen-associate/inc/helper/common.php:78
+#, php-format
+msgid "Search results for: <em>%s</em>"
+msgstr ""
+
+#: ../../wen-associate/inc/helper/common.php:79
+#, php-format
+msgid "Posts tagged <em>%s</em>"
+msgstr ""
+
+#: ../../wen-associate/inc/helper/common.php:80
+#, php-format
+msgid "View all posts by <em>%s</em>"
+msgstr ""
+
+#: ../../wen-associate/inc/helper/common.php:81
+msgid "Error 404"
+msgstr ""
+
+#: ../../wen-associate/inc/helper/common.php:203
+msgid "Page"
+msgstr ""
+
+#: ../../wen-associate/template-parts/content-page.php:27
+#: ../../wen-associate/template-parts/content-single.php:29
+#: ../../wen-associate/template-parts/content.php:50
+msgid "Pages:"
+msgstr ""
+
+#: ../../wen-associate/template-parts/content-none.php:13
+msgid "Nothing Found"
+msgstr ""
+
+#: ../../wen-associate/template-parts/content-none.php:19
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: ../../wen-associate/template-parts/content-none.php:23
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: ../../wen-associate/template-parts/content-none.php:28
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: ../../wen-associate/template-parts/single-author-bio.php:8
+msgid "Written by"
+msgstr ""
+
+#: ../../wen-associate/template-parts/content.php:43
+#, php-format
+msgid "Continue reading %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
