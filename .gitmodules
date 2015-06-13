@@ -1,0 +1,6 @@
+[submodule "www/wordpress-default/wp-content/plugins/twitter"]
+	path = www/wordpress-default/wp-content/plugins/twitter
+	url = https://github.com/twitter/wordpress.git
+[submodule "www/phpcs"]
+	path = www/phpcs
+	url = https://github.com/squizlabs/PHP_CodeSniffer.git
