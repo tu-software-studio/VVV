@@ -1,6 +1,6 @@
-[submodule "www/wordpress-default/wp-content/plugins/twitter"]
-	path = www/wordpress-default/wp-content/plugins/twitter
-	url = https://github.com/twitter/wordpress.git
 [submodule "www/phpcs"]
 	path = www/phpcs
 	url = https://github.com/squizlabs/PHP_CodeSniffer.git
+[submodule "www/wordpress-default/wp-content/plugins/ninja-forms"]
+	path = www/wordpress-default/wp-content/plugins/ninja-forms
+	url = https://github.com/wpninjas/ninja-forms
