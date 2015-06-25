@@ -21,8 +21,10 @@ class SwpmAdminRegistration extends SwpmRegistration {
         $form = new SwpmForm($member);
         if ($form->is_valid()) {
             $member_info = $form->get_sanitized();
-            $account_status = SwpmSettings::get_instance()->get_value('default-account-status', 'active');
-            $member_info['account_state'] = $account_status;
+            /* -JS- Make it so that what the admin says regarding account status, goes when creating a new user.
+             *$account_status = SwpmSettings::get_instance()->get_value('default-account-status', 'active');
+             *$member_info['account_state'] = $account_status;
+             */
             $plain_password = $member_info['plain_password'];
             unset($member_info['plain_password']);
             $wpdb->insert($wpdb->prefix . "swpm_members_tbl", $member_info);
