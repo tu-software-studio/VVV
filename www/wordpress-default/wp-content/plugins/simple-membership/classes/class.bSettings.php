@@ -17,7 +17,7 @@ class BSettings {
             $tab = empty($tab)?filter_input(INPUT_POST, 'tab'):$tab;
             $this->current_tab = empty($tab) ? 1 : $tab;
             $this->tabs = array(1=> 'General Settings', 2=> 'Payment Settings',
-                                3=> 'Email Settings', 4=> 'Tools', 5=>'Advanced Settings', 6=> 'Addons Settings');
+                                3=> 'Email Settings', 4=> 'Tools', 5=>'Advanced Settings', 6=> 'Addons Settings');                    
             add_action('swpm-draw-tab', array(&$this, 'draw_tabs'));
             $method = 'tab_' . $this->current_tab;
             if (method_exists($this, $method)){
@@ -26,13 +26,13 @@ class BSettings {
         }
     }
     private function tab_1() {
-
+                
         register_setting('swpm-settings-tab-1', 'swpm-settings', array(&$this, 'sanitize_tab_1'));
-
+        
         //This settings section has no heading
         add_settings_section('swpm-general-post-submission-check', '',
                 array(&$this, 'swpm_general_post_submit_check_callback'), 'simple_wp_membership_settings');
-
+        
         add_settings_section('swpm-documentation', BUtils::_('Plugin Documentation'),
                 array(&$this, 'swpm_documentation_callback'), 'simple_wp_membership_settings');
         add_settings_section('general-settings', BUtils::_('General Settings'),
@@ -48,12 +48,12 @@ class BSettings {
         add_settings_field('enable-moretag', BUtils::_('Enable More Tag Protection'),
                 array(&$this, 'checkbox_callback'), 'simple_wp_membership_settings', 'general-settings',
                 array('item' => 'enable-moretag',
-                      'message'=> BUtils::_('Enables or disables "more" tag protection in the posts and pages. Anything after the More tag is protected. Anything before the more tag is teaser content.')));
+                      'message'=> BUtils::_('Enables or disables "more" tag protection in the posts and pages. Anything after the More tag is protected. Anything before the more tag is teaser content.')));        
         add_settings_field('hide-adminbar',  BUtils::_('Hide Adminbar'),
                 array(&$this, 'checkbox_callback'), 'simple_wp_membership_settings', 'general-settings',
                 array('item' => 'hide-adminbar',
                       'message'=>BUtils::_('WordPress shows an admin toolbar to the logged in users of the site. Check this box if you want to hide that admin toolbar in the fronend of your site.')));
-
+        
         add_settings_field('default-account-status',  BUtils::_('Default Account Status'),
                 array(&$this, 'selectbox_callback'), 'simple_wp_membership_settings', 'general-settings',
                 array('item' => 'default-account-status',
