@@ -7,3 +7,9 @@
 [submodule "www/wordpress-default/wp-content/plugins/simple-membership"]
 	path = www/wordpress-default/wp-content/plugins/simple-membership
 	url = https://github.com/tu-software-studio/simple-membership/
+[submodule "www/wordpress-default/wp-content/plugins/simple-membership-mailchimp-integration"]
+	path = www/wordpress-default/wp-content/plugins/simple-membership-mailchimp-integration
+	url = https://github.com/tu-software-studio/simple-membership-mailchimp-integration
+[submodule "www/wordpress-default/wp-content/plugins/simple-membership-after-login-redirection"]
+	path = www/wordpress-default/wp-content/plugins/simple-membership-after-login-redirection
+	url = https://github.com/tu-software-studio/simple-membership-after-login-redirection/
