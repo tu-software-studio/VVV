@@ -13,3 +13,6 @@
 [submodule "www/wordpress-default/wp-content/plugins/simple-membership-after-login-redirection"]
 	path = www/wordpress-default/wp-content/plugins/simple-membership-after-login-redirection
 	url = https://github.com/tu-software-studio/simple-membership-after-login-redirection/
+[submodule "www/wp-cli"]
+	path = www/wp-cli
+	url = https://github.com/wp-cli/wp-cli.git
