@@ -2,4 +2,5 @@
 * text eol=lf
 
 # Keep fontawesome from being hosed by commits
-wen-associate/third-party/font-awesome/fonts/* binary
+**/wen-associate/third-party/font-awesome/fonts/* binary
+
