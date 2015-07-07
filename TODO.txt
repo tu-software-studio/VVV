@@ -1,0 +1,25 @@
+Justin Southworth
+
+As of 7-7-15:
+ - MailChimp
+    - Ensure users are only added to list if account status is 'active' (i.e.
+      not 'pending'
+    - Ensure formerly 'pending' users are added to the MailChimp list when their
+      status is changed to 'active'.
+    - Ensure users are removed from MailChimp list if account status changes
+      from 'active' to 'pending'
+ - Regarding the question of how to have users register to become a Friend of
+    Interserve, it seems best to have only one form on the front end. They're
+    emphasizing simplicity for users, so we should give it to them. Any time a
+    "Support Us" form is filled out, ISV India will look through it and take any
+    appropriate actions, including contacting the supporter about becoming a
+    Friend if they indicated their desire to do so.
+ - Plugins
+    - I expect that if plugins are ever updated on the front end, it will
+      remove all customizations, requiring cherry-picks and merges (meaning a
+      programmer). This is pretty dangerous, but I'm not sure how to identify
+ - Random
+    - Add Google map to "Contact Us" form (currently it says there's supposed to
+      be one, but there isn't.)
+    - All pages were pretty haphazardly copied over from isvindia.com. These
+      should be updated (by ISV India, so they know how all the things work).
