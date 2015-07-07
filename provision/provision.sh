@@ -367,15 +367,8 @@ if [[ -n "${mailcatcher_version}" ]]; then
 else
 	echo " * Mailcatcher [not installed]"
 	/usr/bin/env rvm default@mailcatcher --create do gem install mailcatcher --no-rdoc --no-ri
-
-
-	/usr/bin/env rvm default@mailcatcher --create do gem install mailcatcher --no-rdoc --no-ri
 	/usr/bin/env rvm wrapper default@mailcatcher --no-prefix mailcatcher catchmail
-	# /usr/bin/env rvm default@mailcatcher do gem install i18n -v 0.6.11
-	# /usr/bin/env rvm default@mailcatcher do gem uninstall i18n -Ix --version '>0.6.11'
-			
 fi
-
 
 if [[ -f /etc/init/mailcatcher.conf ]]; then
 	echo " *" Mailcatcher upstart already configured.
@@ -387,7 +380,6 @@ fi
 if [[ -f /etc/php5/mods-available/mailcatcher.ini ]]; then
 	echo " *" Mailcatcher php5 fpm already configured.
 else
-	# cp /srv/config/php5-fpm-config/mailcatcher.ini  /etc/php5/fpm/conf.d/mailcatcher.ini
 	cp /srv/config/php5-fpm-config/mailcatcher.ini /etc/php5/mods-available/mailcatcher.ini
 	echo " * Copied /srv/config/php5-fpm-config/mailcatcher.ini    to /etc/php5/mods-available/mailcatcher.ini"
 fi
@@ -484,11 +476,11 @@ if [[ $ping_result == "Connected" ]]; then
 	# Download and extract phpMemcachedAdmin to provide a dashboard view and
 	# admin interface to the goings on of memcached when running
 	if [[ ! -d /srv/www/default/memcached-admin ]]; then
-		echo -e "\nDownloading phpMemcachedAdmin, see https://code.google.com/p/phpmemcacheadmin/"
+		echo -e "\nDownloading phpMemcachedAdmin, see https://github.com/wp-cloud/phpmemcacheadmin"
 		cd /srv/www/default
-		wget -q -O phpmemcachedadmin.tar.gz 'https://phpmemcacheadmin.googlecode.com/files/phpMemcachedAdmin-1.2.2-r262.tar.gz'
-		mkdir memcached-admin
-		tar -xf phpmemcachedadmin.tar.gz --directory memcached-admin
+		wget -q -O phpmemcachedadmin.tar.gz 'https://github.com/wp-cloud/phpmemcacheadmin/archive/1.2.2.1.tar.gz'
+		tar -xf phpmemcachedadmin.tar.gz
+		mv phpmemcacheadmin* memcached-admin
 		rm phpmemcachedadmin.tar.gz
 	else
 		echo "phpMemcachedAdmin already installed."
@@ -657,11 +649,11 @@ PHP
 
 	# Download phpMyAdmin
 	if [[ ! -d /srv/www/default/database-admin ]]; then
-		echo "Downloading phpMyAdmin 4.2.13.1..."
+		echo "Downloading phpMyAdmin..."
 		cd /srv/www/default
-		wget -q -O phpmyadmin.tar.gz 'http://sourceforge.net/projects/phpmyadmin/files/phpMyAdmin/4.2.13.1/phpMyAdmin-4.2.13.1-all-languages.tar.gz/download'
+		wget -q -O phpmyadmin.tar.gz 'https://files.phpmyadmin.net/phpMyAdmin/4.4.10/phpMyAdmin-4.4.10-all-languages.tar.gz'
 		tar -xf phpmyadmin.tar.gz
-		mv phpMyAdmin-4.2.13.1-all-languages database-admin
+		mv phpMyAdmin-4.4.10-all-languages database-admin
 		rm phpmyadmin.tar.gz
 	else
 		echo "PHPMyAdmin already installed."
